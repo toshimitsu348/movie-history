@@ -70,7 +70,7 @@ class PostController extends Controller
                 $post->loginuser_id = false;
             }
         }
-        return view('post.detail', ['movie' => $movie, 'tmdb_id' => $tmdb_id, 'post' => $post,'posts' => $posts,]);
+        return view('post.detail', ['movie' => $movie, 'tmdb_id' => $tmdb_id, 'posts' => $posts,]);
     }
 
 
